@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    height: 100vh;
+    background-image: url('./../../Media/Header/Background-Image-Header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header__box {
+    background-color: rgba(255, 255, 255, 0.589);
+    position: absolute;
+    width: 35%;
+    left: 0; right: 0;
+    top: 35%;
+    margin: 0 auto;
+    padding:  1rem 2rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.header__link {
+    text-decoration: none;
+    color: #222;
+    background-color: rgb(219, 219, 4);
+    padding: .4rem 1rem;
+    border-radius: 100px;
+    margin-bottom: .2rem;
+    display: inline-block;
+    box-shadow: 2px 2px 4px grey;
+    transition: all .5s;
+}
+
+.header__link:hover {
+    background-color: crimson;
+    color: white;
+    box-shadow: 4px 4px 8px grey;
+}
+
+.header__desc {
+    margin-top: .5rem;
+}
+
+.header__title {
+    margin-bottom: 0;
+}

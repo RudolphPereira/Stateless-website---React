@@ -1,0 +1,41 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  z-index: 999;
+}
+
+.nav__logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav__logo--title {
+  margin: 0 0.5rem;
+  color: crimson;
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+}
+
+.nav__items {
+  margin: 0 0.5rem;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #222;
+  transition: all 0.5s;
+}
+
+.nav__link:hover {
+  background-color: crimson;
+  color: white;
+  padding: 0.2rem 0.3rem;
+  border-radius: 2px;
+}
